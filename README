@@ -1,0 +1,7 @@
+TODO:
+Add menu system
+Add win/loss text
+Fix any bugs I haven't encountered yet
+
+Run make to compile. Run snake to play.
+Press SPACE to start a new game both at start and after losing.
