@@ -1,6 +1,6 @@
-CC = gcc
-SDL_LIB = -lSDL2
-CFLAGS = -Wall -Werror -O2 -std=c99
+CC = clang
+SDL_LIB = -L/usr/local/lib -lSDL2
+CFLAGS = -Wall -Werror -O2 -std=c99 -I/usr/local/include
 LDFLAGS = $(SDL_LIB)
 OBJS = snake.o snake_game.o
 
